@@ -50,4 +50,24 @@ public class auto
     {
         return "Marca: " + this.marca + "\nModelo: "+ this.modelo + "\nAño: " + this.anio + "\nMotor: " + this.tipodemotor + "\nTransmisión: " + this.tipotransmision;
     }
+    public void avanzar() 
+    {
+        System.out.println("El auto avanzo!!!");
+	}
+    public void Retroceder() 
+    {
+        System.out.println("El auto va en reversa!!!");
+	}
+    public void girar() 
+    {
+        System.out.println("El auto giro!!!");
+	}
+    public void Frenar() 
+    {
+        System.out.println("El auto freno!!!");
+	}
+    public void encenderLuces() 
+    {
+        System.out.println("El auto encendio las luces!!!");
+	}
 }
